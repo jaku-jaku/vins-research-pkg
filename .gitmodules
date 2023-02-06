@@ -1,3 +1,6 @@
 [submodule "jx-vins-fusion"]
 	path = VINS-Fusion
 	url = git@github.com:jaku-jaku/jx-vins-fusion.git
+[submodule "kalibr"]
+	path = kalibr
+	url = https://github.com/ethz-asl/kalibr.git
