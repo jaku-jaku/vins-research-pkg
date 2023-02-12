@@ -4,3 +4,9 @@
 [submodule "kalibr"]
 	path = kalibr
 	url = https://github.com/ethz-asl/kalibr.git
+[submodule "jx-Kimera-VIO-ROS"]
+	path = jx-Kimera-VIO-ROS
+	url = git@github.com:jaku-jaku/jx-Kimera-VIO-ROS.git
+[submodule "Kimera-VIO"]
+	path = Kimera-VIO
+	url = git@github.com:jaku-jaku/Kimera-VIO.git
