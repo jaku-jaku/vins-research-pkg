@@ -10,3 +10,21 @@
 [submodule "Kimera-VIO"]
 	path = Kimera-VIO
 	url = git@github.com:jaku-jaku/Kimera-VIO.git
+[submodule "gtsam"]
+	path = gtsam
+	url = https://github.com/borglab/gtsam.git
+[submodule "opengv_catkin"]
+	path = opengv_catkin
+	url = https://github.com/ToniRV/opengv_catkin.git
+[submodule "dbow2_catkin"]
+	path = dbow2_catkin
+	url = https://github.com/marcusabate/dbow2_catkin.git
+[submodule "Kimera-RPGO"]
+	path = Kimera-RPGO
+	url = https://github.com/MIT-SPARK/Kimera-RPGO.git
+[submodule "opencv3_catkin"]
+	path = opencv3_catkin
+	url = https://github.com/ethz-asl/opencv3_catkin.git
+[submodule "pose_graph_tools"]
+	path = pose_graph_tools
+	url = https://github.com/MIT-SPARK/pose_graph_tools.git
