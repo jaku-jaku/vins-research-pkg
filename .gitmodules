@@ -28,3 +28,6 @@
 [submodule "pose_graph_tools"]
 	path = pose_graph_tools
 	url = https://github.com/MIT-SPARK/pose_graph_tools.git
+[submodule "allan_variance_ros"]
+	path = allan_variance_ros
+	url = https://github.com/ori-drs/allan_variance_ros.git
