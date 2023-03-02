@@ -4,3 +4,6 @@
 [submodule "kalibr"]
 	path = kalibr
 	url = https://github.com/ethz-asl/kalibr.git
+[submodule "allan_variance_ros"]
+	path = allan_variance_ros
+	url = https://github.com/ori-drs/allan_variance_ros.git
