@@ -7,3 +7,6 @@
 [submodule "allan_variance_ros"]
 	path = allan_variance_ros
 	url = https://github.com/ori-drs/allan_variance_ros.git
+[submodule "jx-ORB_SLAM3"]
+	path = jx-ORB_SLAM3
+	url = git@github.com:jaku-jaku/jx-ORB_SLAM3.git
