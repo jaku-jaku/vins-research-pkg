@@ -1,9 +1,6 @@
 [submodule "jx-vins-fusion"]
 	path = VINS-Fusion
 	url = git@github.com:jaku-jaku/jx-vins-fusion.git
-[submodule "kalibr"]
-	path = kalibr
-	url = https://github.com/ethz-asl/kalibr.git
 [submodule "jx-Kimera-VIO-ROS"]
 	path = jx-Kimera-VIO-ROS
 	url = git@github.com:jaku-jaku/jx-Kimera-VIO-ROS.git
@@ -28,6 +25,3 @@
 [submodule "pose_graph_tools"]
 	path = pose_graph_tools
 	url = https://github.com/MIT-SPARK/pose_graph_tools.git
-[submodule "allan_variance_ros"]
-	path = allan_variance_ros
-	url = https://github.com/ori-drs/allan_variance_ros.git
