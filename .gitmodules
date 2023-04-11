@@ -1,3 +1,6 @@
 [submodule "jx-vins-fusion"]
 	path = VINS-Fusion
 	url = git@github.com:jaku-jaku/jx-vins-fusion.git
+[submodule "research-project"]
+	path = research-project
+	url = git@github.com:jaku-jaku/research-project.git
