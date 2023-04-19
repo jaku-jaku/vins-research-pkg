@@ -4,3 +4,9 @@
 [submodule "research-project"]
 	path = research-project
 	url = git@github.com:jaku-jaku/research-project.git
+[submodule "jx-robotics-toolbox-python"]
+	path = jx-robotics-toolbox-python
+	url = git@github.com:jaku-jaku/jx-robotics-toolbox-python.git
+[submodule "jx-spatialmath-python"]
+	path = jx-spatialmath-python
+	url = git@github.com:jaku-jaku/jx-spatialmath-python.git
