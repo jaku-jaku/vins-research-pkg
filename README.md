@@ -167,6 +167,9 @@ $ sudo apt-get install -y python3-dev python3-pip python3-scipy \
      update_rate: 100.0 #Make sure this is correct
      ```
 
+```bash
+/home/jx/UWARL_catkin_ws/src/waterloo_steel/waterloo_steel_demo/waterloo_steel_analyzer/shortcuts/batch_tmux_vins.sh waterloo_steel_demo_0504 mono_rgb_imu base d455 0 all accurate_T_ic_v2 -1 -1 && /home/jx/UWARL_catkin_ws/src/waterloo_steel/waterloo_steel_demo/waterloo_steel_analyzer/shortcuts/batch_tmux_vins.sh waterloo_steel_demo_0504 mono_rgb_imu base d455 1 all accurate_T_ic_v2 -1 -1 && /home/jx/UWARL_catkin_ws/src/waterloo_steel/waterloo_steel_demo/waterloo_steel_analyzer/shortcuts/batch_tmux_vins.sh waterloo_steel_demo_0504 mono_rgb_imu base d455 2 all accurate_T_ic_v2 -1 -1 && /home/jx/UWARL_catkin_ws/src/waterloo_steel/waterloo_steel_demo/waterloo_steel_analyzer/shortcuts/batch_tmux_vins.sh waterloo_steel_demo_0504 mono_rgb_imu EE d455 0 all accurate_T_ic_v2 -1 -1 && /home/jx/UWARL_catkin_ws/src/waterloo_steel/waterloo_steel_demo/waterloo_steel_analyzer/shortcuts/batch_tmux_vins.sh waterloo_steel_demo_0504 mono_rgb_imu EE d455 1 all accurate_T_ic_v2 -1 -1 && /home/jx/UWARL_catkin_ws/src/waterloo_steel/waterloo_steel_demo/waterloo_steel_analyzer/shortcuts/batch_tmux_vins.sh waterloo_steel_demo_0504 mono_rgb_imu EE d455 2 all accurate_T_ic_v2 -1 -1
+```
 
 
 
