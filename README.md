@@ -168,7 +168,7 @@ $ sudo apt-get install -y python3-dev python3-pip python3-scipy \
      ```
 
 ```bash
-/home/jx/UWARL_catkin_ws/src/waterloo_steel/waterloo_steel_demo/waterloo_steel_analyzer/shortcuts/batch_tmux_vins.sh waterloo_steel_demo_0518 mono_rgb_imu EE d455 all all accurate_T_ic_manufacture -1 -1 
+/home/jx/UWARL_catkin_ws/src/waterloo_steel/waterloo_steel_demo/waterloo_steel_analyzer/shortcuts/batch_tmux_vins.sh waterloo_steel_demo_0519 mono_rgb_imu EE d455 all all accurate_T_ic -1 -1 && /home/jx/UWARL_catkin_ws/src/waterloo_steel/waterloo_steel_demo/waterloo_steel_analyzer/shortcuts/batch_tmux_vins.sh waterloo_steel_demo_0519 mono_rgb_imu base d455 all all accurate_T_ic -1 -1 
 ```
 
 
