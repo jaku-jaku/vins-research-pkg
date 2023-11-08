@@ -1,13 +1,19 @@
 <toc>
 
 # Table of Contents
-[*Last generated: Thu 02 Mar 2023 05:40:57 PM EST*]
-  - [VINS](#VINS)
-    - [Ceres 2.0.0](#Ceres-200)
-    - [Perform VINS Demo on Recorded bag files (dependency on jack's private repo):](#Perform-VINS-Demo-on-Recorded-bag-files-dependency-on-jacks-private-repo)
-    - [Bag Live Player (Plotter):](#Bag-Live-Player-Plotter)
-  - [How to use Kalibr](#How-to-use-Kalibr)
-    - [Useful Related Links:](#Useful-Related-Links)
+[*Last generated: Wed 08 Nov 2023 05:19:35 AM UTC*]
+- [**VIO**](#VIO)
+  - [1. VINS](#1-VINS)
+    - [1.1 Ceres 2.0.0](#11-Ceres-200)
+      - [1.1.a One bash install:](#11a-One-bash-install)
+      - [1.1.b Manual Installation](#11b-Manual-Installation)
+    - [1.2 Perform VINS Demo on Recorded bag files (dependency on jack's private repo):](#12-Perform-VINS-Demo-on-Recorded-bag-files-dependency-on-jacks-private-repo)
+    - [1.3 Bag Live Player (Plotter):](#13-Bag-Live-Player-Plotter)
+- [**2. Calibration**](#2-Calibration)
+  - [2,1 How to use Kalibr](#21-How-to-use-Kalibr)
+    - [2.1.0  Kalibr Dependency](#210-Kalibr-Dependency)
+  - [2.2 How to calibrate IMU (Allan Variance):](#22-How-to-calibrate-IMU-Allan-Variance)
+    - [2.1.a Useful Related Links:](#21a-Useful-Related-Links)
 
 ---
 </toc>
@@ -20,8 +26,14 @@
 ### 1.1 Ceres 2.0.0
 - ubuntu 20 [VINS Fusion support for Ubuntu 20.04 with Ceres Solver 2.0.0 HKUST-Aerial-Robotics/VINS-Fusion#187](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/pull/187)
 
+#### 1.1.a One bash install:
+  ```bash
+  ./UWARL_catkin_ws/src/vins-research-pkg/scripts/install_ceres.sh
+  ```
+
+#### 1.1.b Manual Installation
 - ```bash
-  $ cd JX_Linux
+  $ cd ~/JX_Linux
   $ wget http://ceres-solver.org/ceres-solver-2.0.0.tar.gz
   $ tar zxf ceres-solver-2.0.0.tar.gz
   $ mkdir ceres-bin
@@ -170,6 +182,7 @@ $ sudo apt-get install -y python3-dev python3-pip python3-scipy \
 ```bash
 /home/jx/UWARL_catkin_ws/src/waterloo_steel/waterloo_steel_demo/waterloo_steel_analyzer/shortcuts/batch_tmux_vins.sh waterloo_steel_demo_0519 mono_rgb_imu EE d455 all all accurate_T_ic -1 -1 && /home/jx/UWARL_catkin_ws/src/waterloo_steel/waterloo_steel_demo/waterloo_steel_analyzer/shortcuts/batch_tmux_vins.sh waterloo_steel_demo_0519 mono_rgb_imu base d455 all all accurate_T_ic -1 -1 
 ```
+
 
 
 
